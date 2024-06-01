@@ -12,6 +12,10 @@ print("Sumanth"+" "+"Soora")
 x=input("what is your name:")    #input reads adn stores the value into it for you inorder 
 print('hello!' + x)                     #to use you need to store it a differerent variable
 
-num1=input()
-num2=input()
+num1=int(input())
+num2=int(input())
 print(num1+num2)
+
+name=input("enter a name:")      #all this can be writtien in one line "  print(len(input()))  "
+count=len(name)
+print(count)
