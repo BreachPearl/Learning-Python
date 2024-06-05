@@ -140,3 +140,5 @@ if Choice==2:
         ---.__(___)
             """)
         print("Draw")
+if Choice<0 or Choice>2:
+    print("invalid") 
