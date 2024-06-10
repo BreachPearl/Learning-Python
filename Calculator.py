@@ -13,13 +13,13 @@ operation={
     "/":div
 }
 def Calculator():
-    num1 = int(input("what is the first number?:"))
+    num1 = float(input("what is the first number?:"))
     for i in operation:
         print(i)
     should_con=True
     while should_con:
         operation_symbol=input("what operation do you wanna choose?")
-        num2 = int(input("what is the next number?:"))
+        num2 = float(input("what is the next number?:"))
         calculation_function=operation[operation_symbol]
         answer=calculation_function(num1,num2) 
         print(f"{num1} {operation_symbol} {num2} = {answer}")
